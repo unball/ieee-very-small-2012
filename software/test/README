@@ -1,0 +1,4 @@
+This folder will contain all unit tests for the project.
+
+All tests should be written using the Boost Test framework:
+http://www.boost.org/doc/libs/1_49_0/libs/test/doc/html/index.html

@@ -1,0 +1,7 @@
+Comandos
+
+git add "arquivo"
+
+git commit -m "comentario"
+
+git push origin master

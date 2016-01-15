@@ -1,0 +1,35 @@
+Ponte H e Motores
+
+[x] Mudar Ponte H (diminuir dropout voltage, encapsulamento DIP com diodos internos)
+[ ] Mudar o silkscreen dos motores para indicação dos motores (atualmente fica escondido embaixo dos pinos)
+[ ] Facilitar colocação dos motores sem queimar (indicar com bolinha fio vermelho)
+
+XBee e RF
+
+[x?] Mudar LED do XBee para ligar em nível baixo (RX do XBee é active low)
+[x?] Adicionar LED TX no XBee
+[x?] Adicionar LED RSSI no XBee
+[?] Reavaliar circuito RF de acordo com robô Bauru
+
+Facilidades durante competição
+
+[x] Adicionar gravação do AVR via XBee
+[x] Adicionar possibilidade de carregar bateria sem tirá-la do robô (só precisa puxar o fio com robô desligado)
+
+Problemas
+
+[x] Mudar chave on/off para evitar problema com gravadora (entre VCC e reguladores, ao invés de reguladores e GND?)
+[ ] Mudar chave on/off para ficar na placa (verificar corrente)
+[x] Mudar footprint do pushbutton se este for mantido
+[?] Deixar pinos extras de uma forma que calouros não queiram soldar imediatamente
+
+Upgrades
+
+[x] Mudar AVR para ATmega328
+[x] Mudar conectores dos motores e bateria (conforme necessário)
+
+Fixação e posicionamento
+
+[ ] Pensar se a placa vai ficar voltada para cima com acrílico ou para baixo com camiseta direto na placa
+[ ] Mudar furos de fixação e dimensões para se adequar ao projeto mecânico novo
+[ ] Mudar posicionamento de LEDs (melhor se próximos à borda em linha, cuidado para não ficarem próximos demais)

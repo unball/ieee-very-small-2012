@@ -1,0 +1,20 @@
+#include "gameboard.h"
+
+#include <QApplication>
+#include <QFont>
+#include <QGridLayout>
+#include <QPushButton>
+
+int main(int argc, char *argv[])
+{
+
+     QApplication app(argc, argv);
+     GameBoard board;
+     board.setGeometry(100, 100, 850, 855);
+     board.show();
+     return app.exec();
+
+}
+
+
+

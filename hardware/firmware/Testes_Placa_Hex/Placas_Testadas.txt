@@ -1,0 +1,5 @@
+1=resistor 7 errado, tem que ser 18k e r5 10k
+2=resistor 7 errado, tem que ser 18k e r5 10k
+3=ok
+4=resistor 7 errado, tem que ser 18k e r5 10k
+6=

@@ -1,0 +1,127 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'soccerfield.h'
+**
+** Created: Tue Jul 31 08:42:01 2012
+**      by: The Qt Meta Object Compiler version 63 (Qt 4.8.1)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "soccerfield.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'soccerfield.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.1. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_SoccerField[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      10,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       1,       // signalCount
+
+ // signals: signature, parameters, type, tag, flags
+      13,   12,   12,   12, 0x05,
+
+ // slots: signature, parameters, type, tag, flags
+      21,   12,   12,   12, 0x0a,
+      35,   12,   12,   12, 0x0a,
+      56,   45,   12,   12, 0x0a,
+      92,   84,   12,   12, 0x0a,
+     144,  133,  115,   12, 0x0a,
+     185,   12,   12,   12, 0x0a,
+     199,   12,  195,   12, 0x0a,
+     213,   12,   12,   12, 0x08,
+     228,   12,   12,   12, 0x08,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_SoccerField[] = {
+    "SoccerField\0\0timer()\0restartGame()\0"
+    "endGame()\0read,write\0copyThis(char[30],char[30])\0"
+    "write,n\0savePos(char[30],bool)\0"
+    "unsigned long int\0read,p,fwd\0"
+    "loadPos(char[30],unsigned long int,bool)\0"
+    "getPose()\0int\0goalDisplay()\0getPositions()\0"
+    "readPositions()\0"
+};
+
+void SoccerField::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        SoccerField *_t = static_cast<SoccerField *>(_o);
+        switch (_id) {
+        case 0: _t->timer(); break;
+        case 1: _t->restartGame(); break;
+        case 2: _t->endGame(); break;
+        case 3: _t->copyThis((*reinterpret_cast< char(*)[30]>(_a[1])),(*reinterpret_cast< char(*)[30]>(_a[2]))); break;
+        case 4: _t->savePos((*reinterpret_cast< char(*)[30]>(_a[1])),(*reinterpret_cast< bool(*)>(_a[2]))); break;
+        case 5: { unsigned long int _r = _t->loadPos((*reinterpret_cast< char(*)[30]>(_a[1])),(*reinterpret_cast< unsigned long int(*)>(_a[2])),(*reinterpret_cast< bool(*)>(_a[3])));
+            if (_a[0]) *reinterpret_cast< unsigned long int*>(_a[0]) = _r; }  break;
+        case 6: _t->getPose(); break;
+        case 7: { int _r = _t->goalDisplay();
+            if (_a[0]) *reinterpret_cast< int*>(_a[0]) = _r; }  break;
+        case 8: _t->getPositions(); break;
+        case 9: _t->readPositions(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObjectExtraData SoccerField::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject SoccerField::staticMetaObject = {
+    { &QWidget::staticMetaObject, qt_meta_stringdata_SoccerField,
+      qt_meta_data_SoccerField, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &SoccerField::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *SoccerField::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *SoccerField::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_SoccerField))
+        return static_cast<void*>(const_cast< SoccerField*>(this));
+    return QWidget::qt_metacast(_clname);
+}
+
+int SoccerField::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 10)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 10;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void SoccerField::timer()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, 0);
+}
+QT_END_MOC_NAMESPACE

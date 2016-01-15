@@ -1,0 +1,13 @@
+[ ] AVR (ATmega8 e ATmega328)
+[ ] Capacitores Eletrolíticos
+[ ] Capacitores Cerâmicos
+[ ] Resistores
+[ ] Cristal
+[ ] Pushbutton
+[ ] Chave On/Off Placa
+[ ] Reguladores de Tensão
+[ ] LEDs (3mm e 5mm)
+[ ] Ponte H (L298N e nova)
+[ ] XBee
+[ ] Motores (antigos e novos)
+[ ] Módulos RF (não usado)

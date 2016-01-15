@@ -1,0 +1,4 @@
+Key_I        ---------- NewGame
+Key_Space    ---------- Pausar
+Key_C        ---------- Continuar
+CTRL + Key_Q ---------- Fechar

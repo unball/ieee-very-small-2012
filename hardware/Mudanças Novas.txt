@@ -1,0 +1,13 @@
+﻿Testar LED com XBee ( alimentar o LED com 3,2V e fazer do XBee o ground para inverter o sentido);
+
+Adicionar LEDs no TX, RSSI (porta 6 do XBee);
+
+Mudar tamanho e posição dos LEDs;
+
+Manter ADC (verificar se grounds da ponte H podem servir como current sensing)
+
+Dar uma olhada no regulador de tensão ajustável do George;
+
+Voltar com Pushbutton;
+
+Silkscreen.

@@ -1,0 +1,8 @@
+unzip ode-0.11.1.zip to this folder and build with the 'compile' script
+to remove build use the 'clean' script
+
+if you cannot execute, try changing permissions
+in the terminal, while in this folder, do:
+
+chmod 0755 compile clean
+

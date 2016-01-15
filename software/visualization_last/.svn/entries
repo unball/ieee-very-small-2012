@@ -1,0 +1,184 @@
+10
+
+dir
+0
+https://unball.googlecode.com/svn/estrategia/visualization/Visualization%20Last%20Version/Visualization_last
+https://unball.googlecode.com/svn
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4f377ba2-2325-11df-a5e4-cb4ff25536bb
+
+Visualization_last.pro
+file
+
+
+
+add
+
+Visualization_last
+file
+
+
+
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+jogo2.dat
+file
+
+
+
+add
+
+qtc_packaging
+dir
+
+
+
+add
+
+gameboard.ui
+file
+
+
+
+add
+
+Visualization_last.pro.user
+file
+
+
+
+add
+
+poses.dat
+file
+
+
+
+add
+
+VisualizationAppends.qrc
+file
+
+
+
+add
+
+qrc_VisualizationAppends.cpp
+file
+
+
+
+add
+
+gameboard.cpp
+file
+
+
+
+add
+
+soccerfield.cpp
+file
+
+
+
+add
+
+ui_gameboard.h
+file
+
+
+
+add
+
+jogo.dat
+file
+
+
+
+add
+
+main.cpp
+file
+
+
+
+add
+
+Tabela.txt
+file
+
+
+
+add
+
+gameboard.h
+file
+
+
+
+add
+
+soccerfield.h
+file
+
+
+
+add
+
+jogoArq.dat
+file
+
+
+
+add
+
+Icons
+dir
+
+
+
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+copied
+https://unball.googlecode.com/svn/estrategia/visualization/UnBall_vis_10/Icon
+377
+

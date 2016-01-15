@@ -1,0 +1,6 @@
+http://extremeelectronics.co.in/avr-tutorials/gui-software-for-usbasp-based-usb-avr-programmers/
+
+http://www.arduino.cc/playground/Learning/Burn168
+Fuse Bit Settings
+LOW=DF;
+HIGH=DA;

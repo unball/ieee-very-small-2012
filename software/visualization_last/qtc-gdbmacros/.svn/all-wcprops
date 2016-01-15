@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/45/estrategia/visualization/UnBall_vis_10/qtc-gdbmacros
+END
+LGPL_EXCEPTION.TXT
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/45/estrategia/visualization/UnBall_vis_10/qtc-gdbmacros/LGPL_EXCEPTION.TXT
+END
+Makefile.Release
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/45/estrategia/visualization/UnBall_vis_10/qtc-gdbmacros/Makefile.Release
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/45/estrategia/visualization/UnBall_vis_10/qtc-gdbmacros/Makefile
+END
+LICENSE.LGPL
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/45/estrategia/visualization/UnBall_vis_10/qtc-gdbmacros/LICENSE.LGPL
+END
+gdbmacros.pro
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/45/estrategia/visualization/UnBall_vis_10/qtc-gdbmacros/gdbmacros.pro
+END
+Makefile.Debug
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/45/estrategia/visualization/UnBall_vis_10/qtc-gdbmacros/Makefile.Debug
+END
+gdbmacros.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/45/estrategia/visualization/UnBall_vis_10/qtc-gdbmacros/gdbmacros.cpp
+END
+libgdbmacros.so.1.0.0
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/45/estrategia/visualization/UnBall_vis_10/qtc-gdbmacros/libgdbmacros.so.1.0.0
+END
+libgdbmacros.so.1.0
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/45/estrategia/visualization/UnBall_vis_10/qtc-gdbmacros/libgdbmacros.so.1.0
+END
+libgdbmacros.so.1
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/45/estrategia/visualization/UnBall_vis_10/qtc-gdbmacros/libgdbmacros.so.1
+END
+libgdbmacros.so
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/45/estrategia/visualization/UnBall_vis_10/qtc-gdbmacros/libgdbmacros.so
+END

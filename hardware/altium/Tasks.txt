@@ -1,0 +1,5 @@
+[x] Write up schematic by hand
+[ ] Get all libraries ready in a proper manner
+[ ] Sketch schematic on Altium
+[ ] Place components on board
+[ ] Re-evaluate if not fitting

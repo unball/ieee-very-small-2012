@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<TComponentSet id="0" CurrentRevColumnWidth="100" NameColumnWidth="300" NextRevColumnWidth="100">
+  <RequiredParameters>
+    <TRequiredParameter id="1" ColumnWidth="100">
+      <HRID>Comment</HRID>
+    </TRequiredParameter>
+    <TRequiredParameter id="2" ColumnWidth="100">
+      <HRID>Description</HRID>
+    </TRequiredParameter>
+  </RequiredParameters>
+  <RequiredModels>
+    <TRequiredModel id="3" ColumnWidth="100">
+      <HRID>PCBLIB</HRID>
+      <ModelKind>PCBLIB</ModelKind>
+    </TRequiredModel>
+    <TRequiredModel id="4" ColumnWidth="100">
+      <HRID>SCHLIB</HRID>
+      <ModelKind>SCHLIB</ModelKind>
+    </TRequiredModel>
+  </RequiredModels>
+  <ModelLinks/>
+  <TopGroup id="5" StateIndex="2" Collapsed="false">
+    <HRID>XBee Pro</HRID>
+    <Parameters/>
+    <ModelChoices/>
+    <ComponentSet href="#0"/>
+    <ItemNamingScheme>CMP-{00000}</ItemNamingScheme>
+    <Groups/>
+    <ComponentDefinitions/>
+  </TopGroup>
+</TComponentSet>

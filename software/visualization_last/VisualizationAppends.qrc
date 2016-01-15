@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/Icons">
+        <file>Icons/PauseNormal.ico</file>
+        <file>Icons/PausePressed.ico</file>
+        <file>Icons/Play1Normal.ico</file>
+        <file>Icons/Play1Pressed.ico</file>
+        <file>Icons/Settings.ico</file>
+        <file>Icons/StepForwardNormal.ico</file>
+        <file>Icons/StepForwardNormalBlue.ico</file>
+        <file>Icons/Stop1Normal.ico</file>
+        <file>Icons/Stop1NormalBlue.ico</file>
+    </qresource>
+    <qresource prefix="/Atalho">
+        <file>Tabela.txt</file>
+    </qresource>
+</RCC>

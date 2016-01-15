@@ -1,0 +1,17 @@
+--== Instalação ==--
+
+<!-- Antes de qualquer coisa, certifique-se de ter o software Make instalado. 
+Se não estiver digite < sudo apt-get install make > no terminal. -->
+
+-=- Abra o terminal e vá até a pasta software.
+-=- digite o comando: sudo make install
+Com esse comando todas as dependências e ferramentas serão baixadas e instaladas.
+-=- em seguida digite o comando: sudo make
+Com esse segundo comando todos os arquivos de todas as pastas serão compilados e os executáveis serão gerados.
+
+--== Rodando os programas ==--
+
+-=- Abra o terminal e vá até a pasta software/master
+-=- digite o comando: ./Master
+com esse comando o módulo master será executado e executará os demais módulo de forma automática.
+

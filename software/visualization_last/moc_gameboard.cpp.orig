@@ -1,0 +1,133 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'gameboard.h'
+**
+** Created: Tue Jul 31 11:43:11 2012
+**      by: The Qt Meta Object Compiler version 63 (Qt 4.8.1)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include "gameboard.h"
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'gameboard.h' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 63
+#error "This file was generated using the moc from 4.8.1. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+static const uint qt_meta_data_GameBoard[] = {
+
+ // content:
+       6,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      18,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: signature, parameters, type, tag, flags
+      11,   10,   10,   10, 0x09,
+      21,   10,   10,   10, 0x09,
+      31,   10,   10,   10, 0x09,
+      41,   10,   10,   10, 0x09,
+      48,   10,   10,   10, 0x09,
+      63,   10,   10,   10, 0x09,
+      73,   10,   10,   10, 0x09,
+      83,   10,   10,   10, 0x09,
+      91,   10,   10,   10, 0x09,
+     107,   10,   10,   10, 0x09,
+     121,   10,   10,   10, 0x09,
+     131,   10,   10,   10, 0x09,
+     146,   10,   10,   10, 0x09,
+     158,   10,   10,   10, 0x09,
+     165,   10,   10,   10, 0x09,
+     176,   10,   10,   10, 0x09,
+     185,   10,   10,   10, 0x09,
+     194,   10,   10,   10, 0x09,
+
+       0        // eod
+};
+
+static const char qt_meta_stringdata_GameBoard[] = {
+    "GameBoard\0\0newGame()\0endGame()\0stopped()\0"
+    "next()\0continueGame()\0writing()\0"
+    "reading()\0timer()\0modoSimulador()\0"
+    "modoArquivo()\0savePos()\0loadPosition()\0"
+    "configura()\0Menu()\0Settings()\0change()\0"
+    "salvar()\0getGoals()\0"
+};
+
+void GameBoard::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Q_ASSERT(staticMetaObject.cast(_o));
+        GameBoard *_t = static_cast<GameBoard *>(_o);
+        switch (_id) {
+        case 0: _t->newGame(); break;
+        case 1: _t->endGame(); break;
+        case 2: _t->stopped(); break;
+        case 3: _t->next(); break;
+        case 4: _t->continueGame(); break;
+        case 5: _t->writing(); break;
+        case 6: _t->reading(); break;
+        case 7: _t->timer(); break;
+        case 8: _t->modoSimulador(); break;
+        case 9: _t->modoArquivo(); break;
+        case 10: _t->savePos(); break;
+        case 11: _t->loadPosition(); break;
+        case 12: _t->configura(); break;
+        case 13: _t->Menu(); break;
+        case 14: _t->Settings(); break;
+        case 15: _t->change(); break;
+        case 16: _t->salvar(); break;
+        case 17: _t->getGoals(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObjectExtraData GameBoard::staticMetaObjectExtraData = {
+    0,  qt_static_metacall 
+};
+
+const QMetaObject GameBoard::staticMetaObject = {
+    { &QWidget::staticMetaObject, qt_meta_stringdata_GameBoard,
+      qt_meta_data_GameBoard, &staticMetaObjectExtraData }
+};
+
+#ifdef Q_NO_DATA_RELOCATION
+const QMetaObject &GameBoard::getStaticMetaObject() { return staticMetaObject; }
+#endif //Q_NO_DATA_RELOCATION
+
+const QMetaObject *GameBoard::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->metaObject : &staticMetaObject;
+}
+
+void *GameBoard::qt_metacast(const char *_clname)
+{
+    if (!_clname) return 0;
+    if (!strcmp(_clname, qt_meta_stringdata_GameBoard))
+        return static_cast<void*>(const_cast< GameBoard*>(this));
+    return QWidget::qt_metacast(_clname);
+}
+
+int GameBoard::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QWidget::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 18)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 18;
+    }
+    return _id;
+}
+QT_END_MOC_NAMESPACE

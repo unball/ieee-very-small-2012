@@ -1,0 +1,60 @@
+#ifndef GAMEBOARD_H
+#define GAMEBOARD_H
+
+#include <QPlainTextEdit>
+#include <QWidget>
+
+class QLCDNumber;
+class QGroupBox;
+class QPushButton;
+class SoccerField;
+
+class GameBoard : public QWidget
+{
+    Q_OBJECT
+
+public:
+    GameBoard(QWidget *parent = 0);
+
+
+    int goal;
+    QPlainTextEdit *plainText;
+    QFile *wfile;
+    QString modificado;
+
+
+protected slots:
+    void newGame();
+    void endGame();
+    void stopped();
+    void next();
+    void continueGame();
+    void writing();
+    void reading();
+    void timer();
+    void modoSimulador();
+    void modoArquivo();
+    void savePos();
+    void loadPosition();
+ 	void configura();
+    void Menu();
+    void Settings();
+    void change();
+    void salvar();
+	void getGoals();
+
+private:
+    QPushButton * createButton(char str[50], char icn[50], char n);
+    QLCDNumber * createLCD();
+    QLCDNumber *time1;
+    QLCDNumber *time2;
+    QLCDNumber *timerSeg;
+    QLCDNumber *timerMin;
+    QPushButton *quit;
+    QGroupBox *groupBox;
+    SoccerField *soccerField;
+    QTimer *updateTimer;
+    int releasedbutton;
+};
+
+#endif

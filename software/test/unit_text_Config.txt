@@ -1,0 +1,7 @@
+Dummyzao resp1 resp2
+line         21         t2e
+    teeeest       r    read1 read2
+
+jumP 1     1 1
+# nao leia
+chave valor # comentario
